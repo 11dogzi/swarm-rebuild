@@ -26,9 +26,9 @@ The overview contains all current designs: four white robots, four black robots 
 
 [Open or download the full demonstration (MP4, approximately 6.5 MiB)](assets/robot-animation-demo.mp4)
 
-<video controls preload="none" poster="assets/interface-purple-crew.png" src="assets/robot-animation-demo.mp4" width="960"></video>
+![Robot drawing animation demonstration](assets/robot-animation-demo.gif)
 
-Some Markdown platforms do not display embedded video. Use the link above or open `assets/robot-animation-demo.mp4` directly. The video is included in the local package; online presentation requires uploading these files to your chosen repository or website.
+The GIF plays directly in the GitHub README and loops through the full demonstration without audio. Download the MP4 above for the original picture quality and sound.
 
 ## Origin and modifications
 

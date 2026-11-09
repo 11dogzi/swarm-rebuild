@@ -26,9 +26,9 @@ Smart Robot Animation（智能机器人动画插件）是一个 Chrome / Microso
 
 [打开或下载完整演示视频（MP4，约 6.5 MiB）](swarm-rebuild/assets/robot-animation-demo.mp4)
 
-<video controls preload="none" poster="swarm-rebuild/assets/interface-purple-crew.png" src="swarm-rebuild/assets/robot-animation-demo.mp4" width="960"></video>
+![机器人绘制动画完整演示](swarm-rebuild/assets/robot-animation-demo.gif)
 
-部分 Markdown 平台不会显示内嵌视频，请使用上方链接或直接打开 `assets/robot-animation-demo.mp4`。此视频随插件文件打包；在线展示需将这些文件一并上传到你的目标仓库或网站。
+上方 GIF 可在 GitHub 说明页直接播放，包含完整演示过程，循环播放且无音轨。需要查看原始画质和音效时，请使用 MP4 链接下载后播放。
 
 ## 项目来源与修改声明
 
