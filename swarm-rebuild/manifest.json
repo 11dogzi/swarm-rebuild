@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Robot Animation",
+  "version": "1.1.0",
+  "description": "Watch intelligent robot crews redraw the page with live media, cyber effects and synchronized animation.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": { "service_worker": "extension-worker.js" },
+  "permissions": ["activeTab", "scripting"],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/robot-explosion.gif"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["pointer-tracker.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "commands": {
+    "rebuild": {
+      "suggested_key": { "default": "Alt+Shift+S", "mac": "Alt+Shift+S" },
+      "description": "Animate this page with the robot crew"
+    }
+  }
+}
