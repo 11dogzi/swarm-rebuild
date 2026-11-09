@@ -4,6 +4,18 @@
 
 Smart Robot Animation is a Chrome / Microsoft Edge extension that redraws the current page in a visual overlay using animated robot crews. Once the available work finishes, the robots return to your pointer, disappear, and the overlay closes automatically.
 
+## Browser shortcuts — quick start
+
+**After installing and enabling the extension, open the target webpage, click inside its content area, then press `Alt + Shift + S` to start.** This version has no browser toolbar launch button.
+
+| Shortcut | Action |
+| --- | --- |
+| **Alt + Shift + S** | Start the robot animation on the current page; press again while running to exit |
+| **Esc** | Exit the current animation immediately |
+| **M** | Toggle robot sound effects while the animation is running |
+
+These defaults apply to Chrome and Edge. On macOS, Alt corresponds to **Option (⌥)**. If the shortcut is missing or conflicts with another command, open `chrome://extensions/shortcuts` in Chrome or `edge://extensions/shortcuts` in Edge. Find **Smart Robot Animation → Animate this page with the robot crew**, click its shortcut field, and press `Alt + Shift + S` to assign it. Refresh the target webpage after installation or updates before using the shortcut.
+
 ## Interface and robot showcase
 
 The following screenshots show this modified version in use.

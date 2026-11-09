@@ -4,6 +4,18 @@
 
 Smart Robot Animation（智能机器人动画插件）是一个 Chrome / Microsoft Edge 浏览器扩展。启动后，机器人会在覆盖层中重新绘制当前网页；任务完成后，机器人回到鼠标位置并消失，覆盖层自动退出，恢复网页操作。
 
+## 浏览器快捷键（先看这里）
+
+**安装并启用插件后，打开目标网页，点击网页内容区域，再按 `Alt + Shift + S` 启动动画。** 本版本没有浏览器工具栏启动按钮。
+
+| 快捷键 | 功能 |
+| --- | --- |
+| **Alt + Shift + S** | 启动当前网页的机器人动画；运行时再次按下可退出 |
+| **Esc** | 立即退出当前动画 |
+| **M** | 动画运行时开启或关闭机器人音效 |
+
+Chrome 和 Edge 均使用上述默认快捷键。macOS 上 Alt 对应 **Option（⌥）**。若安装后无反应或快捷键冲突，请打开 Chrome 的 `chrome://extensions/shortcuts` 或 Edge 的 `edge://extensions/shortcuts`，找到 **Smart Robot Animation → Animate this page with the robot crew**，点击快捷键输入框并按下 `Alt + Shift + S` 完成绑定。安装或更新后，先刷新目标网页再使用。
+
 ## 界面与机器人展示
 
 以下两张截图由本修改版的实际运行画面提供。
